@@ -1,0 +1,29 @@
+task 5
+
+tools used:wireshark
+
+installing wireshark from windows OS
+
+started capturing network on the wifi
+
+Generated network traffic by:
+
+	Opening web pages in a browser.
+
+	Running ping google.com in Command Prompt.(screeshot provided)
+
+stopped capture after approximately 1 minute
+
+filtered and analyzed traffic by protocol
+
+identified protocols :
+| Protocol   | Description                                                           | 
+| --------   | --------------------------------------------------------------------- | 
+| **DNS**    | Domain Name System used to resolve domain names to IP addresses       |
+| **TCP**    | Transmission Control Protocol, used to establish reliable connections |
+| **ICMPv6** | Internet Control Message Protocol, used for diagnostics               | 
+screenshots provided
+
+file exported and saved as :network capture.pcap
+
+summary:The packet capture shows the normal operation of a computer interacting with the internet. DNS resolved domain names, TCP established connections, and ICMP verified network connectivity. This demonstrates how different protocols work together in typical web and network communication.
